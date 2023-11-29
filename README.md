@@ -16,5 +16,6 @@ The test can be triggered with the following command:
 mvn clean test -Denv=[ENVIRONMENT] -Dbrowser=[BROWSER NAME]
 (f.e.: mvn clean test -Denv=int -Dbrowser=edge)
 
-A report TestReport.html will be generated under folder ./src/main/test-output
+A report TestReport.html will be generated under folder ./src/main/test-output.
+
 Screenshots are collected, only if test fails, under folder ./screenshots
