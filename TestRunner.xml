@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="saucedemo_challenge" verbose="1">
+    <!--<listeners>
+        <listener class-name="core.Listeners"/>
+    </listeners>-->
+    <test name="saucedemo">
+        <classes>
+            <class name="tests.SwagLabsTests"/>
+        </classes>
+    </test>
+</suite>
